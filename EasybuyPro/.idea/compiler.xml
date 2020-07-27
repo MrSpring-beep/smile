@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EasybuyEntity" />
+        <module name="EasybuyDao" />
+        <module name="EasybuyWeb" />
+        <module name="EasybuyUtils" />
+        <module name="EasybuyService" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EasybuyDao" options="" />
+      <module name="EasybuyEntity" options="" />
+      <module name="EasybuyService" options="" />
+      <module name="EasybuyUtils" options="" />
+      <module name="EasybuyWeb" options="" />
+    </option>
+  </component>
+</project>
